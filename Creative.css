@@ -1,0 +1,33 @@
+.work-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.work-intro {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    max-width: 1500px;
+}
+.work-gallery {
+    margin-bottom: 3rem;
+}
+.work-meta {
+    max-width: 1500px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.74);
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 1000px;
+    margin-bottom: 1.5rem;
+}
+.work-meta p {
+    margin: 0.4rem;
+}
+.work-back{
+
+    transition: transform 0.3s ease;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

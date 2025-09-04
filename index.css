@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Kanit';
+    background-color: rgb(0, 0, 0);
+    color: rgb(251, 255, 0);
+}
+h1 h2 h3 {
+    margin: 1rem;
+    padding: 50%;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+    color: rgb(251, 255, 0);
+}
+ul {
+    list-style: none;
+}
+.main-header {
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-link {
+    display: flex;
+    gap: 2rem;
+}
+.nav-link a:hover{
+    color: rgb(255, 255, 255);
+}
+.nav-link a {
+    transition: color 0.3s ease;
+}
+.hero-section {
+    height: 10%; 
+    display: flex;                                                         
+    justify-content: center;
+    background-color: rgb(0, 8, 124);
+    align-items: center;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.btn {
+    background: rgb(0, 47, 255);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+}
+.about-section , .contact-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.h22{
+    margin-bottom: 2rem;
+}
+.Project-section {
+    padding: 4rem 2rem;
+    background-color: rgb(0, 12, 82);
+    text-align: center;
+
+    
+}
+.Project-AN {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px ,1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+.Project-card {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.Project-card:hover {
+    transform: translateY(-5px);
+}
+.Project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    display: block;
+}
+.Project-card h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.5rem;
+}
+.Project-card p{
+    margin-bottom: 1rem;
+}
+.btn-small {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: rgb(0, 18, 117);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: background-color 0.5s ease;
+    margin-top: 1rem;
+}
+.btn-small:hover{
+    background-color: rgb(83, 83, 83);
+}
+.main-footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0 ;
+}
